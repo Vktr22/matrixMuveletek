@@ -1,12 +1,10 @@
 package teszt;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import model.Feladat;
 import org.junit.jupiter.api.Test;
 import java.util.List;
 
-public class matrixTeszt {
+public class MatrixTeszt {
     int sor = 5;
     int oszlop = 6;
     Feladat feladat = new Feladat(sor, oszlop);
